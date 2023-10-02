@@ -30,7 +30,7 @@ function StaffList() {
           alignItems: "center",
           paddingTop: "48px",
         }}
-        className="ikenna-student-affairs-scrolling-div"
+        className="ikenna-funding-first-div"
       >
         <h1 className="ikenna-funding-first-h1">All Staff</h1>
       </div>
@@ -136,7 +136,7 @@ function StaffList() {
           </div>{" "}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
