@@ -7,7 +7,10 @@ register();
 const Programs = () => {
   return (
     <>
-      <section className="xui-container xui-py-3 xui-lg-py-5 hensard-bg-navy-blue xui-text-white">
+      <section
+        data-aos="zoom-in"
+        className="xui-container xui-py-3 xui-lg-py-5 hensard-bg-navy-blue xui-text-white"
+      >
         <h1 className="xui-font-sz-150 xui-lg-font-sz-200 xui-text-uppercase xui-text-center">
           Our programs
         </h1>

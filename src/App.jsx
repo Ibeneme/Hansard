@@ -55,8 +55,18 @@ import ResearchThree from "./Ikenna/pages/research/ResearchOneb";
 import ResearchFour from "./Ikenna/pages/research/ResearchOnec";
 import ResearchFive from "./Ikenna/pages/research/ResearchOned";
 import ResearchSix from "./Ikenna/pages/research/ResearchOnee";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
   return (
     <>
       <BrowserRouter>

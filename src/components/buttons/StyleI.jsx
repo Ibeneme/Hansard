@@ -15,14 +15,18 @@ const ButtonStyleI = (props) => {
             : null
         }
       >
-        <span className="xui-font-sz-90 xui-d-inline-block xui-ml-1 xui-mr-3">
+        <span
+          data-aos="zoom-in"
+          className="xui-font-sz-90 xui-d-inline-block xui-ml-1 xui-mr-3"
+        >
           {text}
         </span>
         <div
+          data-aos="zoom-in"
           className="xui-w-40 xui-h-40 xui-d-inline-flex xui-flex-ai-center xui-flex-jc-center hensard-bg-blue xui-bdr-rad-circle"
           style={color != undefined ? { backgroundColor: `${color}` } : null}
         >
-          <ArrowRight size={20} color="#FFFFFF" />
+          <ArrowRight data-aos="zoom-in" size={20} color="#FFFFFF" />
         </div>
       </Link>
     </>

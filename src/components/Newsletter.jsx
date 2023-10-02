@@ -3,15 +3,18 @@ import { Notepad2, UserCirlceAdd } from "iconsax-react";
 const Newsletter = () => {
   return (
     <>
-      <section className="hensard-newsletter xui-container xui-py-3 xui-lg-py-6 hensard-bg-blue">
+      <section
+          data-aos="zoom-in"
+        className="hensard-newsletter xui-container xui-py-3 xui-lg-py-6 hensard-bg-blue"
+      >
         <div className="xui-text-center">
-          <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
-          <p className="xui-mt-1 xui-opacity-8">
+          <h1 data-aos="zoom-in">SUBSCRIBE TO OUR NEWSLETTER</h1>
+          <p data-aos="zoom-in" className="xui-mt-1 xui-opacity-8">
             Never miss interesting happenings by joining our newsletter program.
           </p>
         </div>
-        <div className="hensard-newsletter-form-box xui-max-w-800 xui-w-fluid-100 xui-mx-auto xui-d-flex xui-flex-ai-center xui-flex-jc-space-between">
-          <div className="xui-d-flex xui-flex-ai-center">
+        <div data-aos="zoom-in" className="hensard-newsletter-form-box xui-max-w-800 xui-w-fluid-100 xui-mx-auto xui-d-flex xui-flex-ai-center xui-flex-jc-space-between">
+          <div  data-aos="zoom-in" className="xui-d-flex xui-flex-ai-center">
             <div className="xui-d-none xui-lg-d-inline">
               <Notepad2 size={32} variant="Bulk" />
             </div>

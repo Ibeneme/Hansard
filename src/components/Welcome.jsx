@@ -4,7 +4,10 @@ import ButtonStyleI from "./buttons/StyleI";
 const Welcome = () => {
   return (
     <>
-      <section className="xui-container xui-py-3 xui-lg-py-5 xui-pos-relative">
+      <section
+        data-aos="zoom-in"
+        className="xui-container xui-py-3 xui-lg-py-5 xui-pos-relative"
+      >
         <img
           src="https://res.cloudinary.com/dqa2jr535/image/upload/t_Hensard/v1696146794/image21_sl4kgm.jpg"
           alt="custom image"
@@ -12,16 +15,23 @@ const Welcome = () => {
         />
         <div className="xui-row xui-pos-relative" style={{ zIndex: 2 }}>
           <div
+            data-aos="zoom-in"
             className="xui-col-12 xui-lg-col-7 xui-px-2 xui-py-3 xui-text-white"
             style={{
               backgroundColor: "var(--navy-blue)",
               borderRight: "20px solid var(--red)",
             }}
           >
-            <h1 className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase">
+            <h1
+              data-aos="zoom-in"
+              className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase"
+            >
               Founder's Message
             </h1>
-            <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
+            <p
+              data-aos="zoom-in"
+              className="xui-mt-1 xui-line-height-2 xui-opacity-8"
+            >
               On behalf of my family and the Henry Seriake Dickson Foundation, I
               extend warm welcomes to you. Your interest in the establishment of
               Hensard University by the Foundation is greatly
@@ -35,7 +45,7 @@ const Welcome = () => {
               exposure of our students to renowned mentors and leaders in
               various fields, globally.
             </p>
-            <div className="xui-mt-2">
+            <div data-aos="zoom-in" className="xui-mt-2">
               <ButtonStyleI path={"/"} text={"Read More"} />
             </div>
           </div>

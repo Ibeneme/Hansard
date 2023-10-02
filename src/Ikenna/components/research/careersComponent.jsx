@@ -4,19 +4,21 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const CareersComponent = ({ title, buttonText, description, onClick }) => {
   return (
     <div
+      data-aos="zoom-in"
       style={{
         width: "100%",
         backgroundColor: "#ffffff12",
         color: "white",
         padding: 24,
         borderRadius: 12,
-        justifyContent:'space-between',
+        justifyContent: "space-between",
         minHeight: 300,
       }}
     >
       <div>
-        <h2>{title}</h2>
+        <h2 data-aos="zoom-in">{title}</h2>
         <p
+          data-aos="zoom-in"
           style={{
             fontSize: 14,
             lineHeight: 1.6,
@@ -27,6 +29,7 @@ const CareersComponent = ({ title, buttonText, description, onClick }) => {
       </div>
 
       <div
+      data-aos="zoom-in"
         style={{
           display: "flex",
           alignItems: "center",
@@ -50,7 +53,6 @@ const CareersComponent = ({ title, buttonText, description, onClick }) => {
             borderRadius: 24,
             cursor: "pointer",
           }}
-
         >
           <BiRightArrowAlt />
         </div>

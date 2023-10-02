@@ -1,7 +1,36 @@
 import ButtonStyleI from "./buttons/StyleI";
 import CustomImage from "../assets/images/redcharlie-redcharlie1-vGbC6mOeUCw-unsplash.png";
+import { useState, useEffect } from "react";
 
 const Stats = () => {
+  const [count, setCount] = useState(0);
+
+  const targetNumber = 24;
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      if (count < targetNumber) {
+        setCount(count + 1);
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 200);
+    return () => clearInterval(intervalId);
+  }, [count]);
+
+  const [percentage, setPercentage] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      if (percentage < 100) {
+        setPercentage(percentage + 1);
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 50);
+    return () => clearInterval(intervalId);
+  }, [percentage]);
+
   return (
     <>
       <section className="xui-container xui-py-3 xui-lg-py-5 xui-pos-relative">
@@ -12,6 +41,7 @@ const Stats = () => {
         />
         <div className="xui-row xui-pos-relative" style={{ zIndex: 2 }}>
           <div
+            data-aos="zoom-in"
             className="xui-col-12 xui-lg-col-7 xui-px-2 xui-py-3 xui-text-white"
             style={{ backgroundColor: "var(--red)" }}
           >
@@ -38,16 +68,22 @@ const Stats = () => {
             </p>
             <br />
             <br />
-            <h1 className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase">
+            <h1
+              data-aos="zoom-in"
+              className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase"
+            >
               OUR VISION
             </h1>
-            <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
+            <p
+              data-aos="zoom-in"
+              className="xui-mt-1 xui-line-height-2 xui-opacity-8"
+            >
               Aspire to be a top-tier academic, research, and entrepreneurial
               university, producing ethical and responsible students and
               professionals who are committed to sustainable development
             </p>
 
-            <div className="xui-mt-2">
+            <div data-aos="zoom-in" className="xui-mt-2">
               <ButtonStyleI path={"/"} text={"Apply Now"} color="var(--red)" />
             </div>
           </div>
@@ -57,27 +93,39 @@ const Stats = () => {
                 className="xui-d-grid xui-lg-grid-col-2"
                 style={{ color: "var(--navy-blue)" }}
               >
-                <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
+                <div
+                  data-aos="zoom-in"
+                  className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade"
+                >
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    24
+                    {count}
                   </h2>
                   <p>Departments</p>
                 </div>
-                <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
+                <div
+                  data-aos="zoom-in"
+                  className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade"
+                >
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
                     2
                   </h2>
                   <p> Degrees, Dual Certificate on Graduation</p>
                 </div>
-                <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
+                <div
+                  data-aos="zoom-in"
+                  className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade"
+                >
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    100%
+                    {percentage}%
                   </h2>
                   <p> Mentorship From Industry Leaders</p>
                 </div>
-                <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
+                <div
+                  data-aos="zoom-in"
+                  className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade"
+                >
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    100%
+                    {percentage}%
                   </h2>
                   <p>International Standards </p>
                 </div>
