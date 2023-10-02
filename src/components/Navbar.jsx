@@ -173,7 +173,7 @@ const Navbar = () => {
             },
             {
               title: "Foundation School",
-              path: "/foundation-school",
+              path: "/coming-soon",
             },
           ],
         },
