@@ -1,13 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import ButtonStyleI from "./buttons/StyleI";
 
-
 const Welcome = () => {
   return (
     <>
       <section className="xui-container xui-py-3 xui-lg-py-5 xui-pos-relative">
         <img
-          src="https://res.cloudinary.com/dqa2jr535/image/upload/v1696146794/image21_sl4kgm.jpg"
+          src="https://res.cloudinary.com/dqa2jr535/image/upload/t_Hensard/v1696146794/image21_sl4kgm.jpg"
           alt="custom image"
           className="xui-w-fluid-100 xui-lg-h-300 hensard-placed-image-ii"
         />

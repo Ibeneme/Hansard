@@ -59,27 +59,27 @@ const Stats = () => {
               >
                 <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    23,456+
+                    24
                   </h2>
-                  <p>Students admitted to Hensard</p>
+                  <p>Departments</p>
                 </div>
                 <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    23,456+
+                    2
                   </h2>
-                  <p>Students admitted to Hensard</p>
+                  <p> Degrees, Dual Certificate on Graduation</p>
                 </div>
                 <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    23,456+
+                    100%
                   </h2>
-                  <p>Students admitted to Hensard</p>
+                  <p> Mentorship From Industry Leaders</p>
                 </div>
                 <div className="xui-py-3 xui-px-3 xui-bdr-s-solid xui-bdr-w-1 xui-bdr-fade">
                   <h2 className="xui-font-w-bolder xui-font-sz-120 xui-lg-font-sz-200">
-                    23,456+
+                    100%
                   </h2>
-                  <p>Students admitted to Hensard</p>
+                  <p>International Standards </p>
                 </div>
               </div>
             </div>

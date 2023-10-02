@@ -13,7 +13,7 @@ const Indexa = () => {
     >
       <CareersComponent
         title="Undergraduate Degree"
-        description="Our faculty, facilities, and programs create a dynamic learning environment that prepares students for successful careers. With experiential learning, support services, and a vibrant campus community, we empower you to achieve your goals and unlock your potential as a future leader. Join us for an exciting journey of academic excellence and professional growth at Hensard University's Undergraduate Section."
+        description="Our dedicated faculty, state-of-the-art facilities, and rigorous academic programs create a dynamic learning environment that prepares students for success in their chosen careers. Through a combination of theoretical knowledge and practical skills development, we foster critical thinking, interdisciplinary collaboration, and a passion for lifelong learning. With opportunities for experiential learning, comprehensive support services, and a vibrant campus community, we are committed to empowering you to achieve your goals and unlock your full potential as a future leader and innovator."
         buttonText="Apply Now"
         onClick={() => navigation("/department")}
       />
