@@ -1,12 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import ButtonStyleI from "./buttons/StyleI";
-import CustomImage from "../assets/images/redcharlie-redcharlie1-vGbC6mOeUCw-unsplash.png";
+
 
 const Welcome = () => {
   return (
     <>
       <section className="xui-container xui-py-3 xui-lg-py-5 xui-pos-relative">
         <img
-          src={CustomImage}
+          src="https://res.cloudinary.com/dqa2jr535/image/upload/v1696146794/image21_sl4kgm.jpg"
           alt="custom image"
           className="xui-w-fluid-100 xui-lg-h-300 hensard-placed-image-ii"
         />
@@ -19,36 +20,24 @@ const Welcome = () => {
             }}
           >
             <h1 className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase">
-              WELCOME TO HENSARD UNIVERSITY.
+              Founder's Message
             </h1>
             <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
-              Hensard University is a unique private university licensed by the
-              Federal Government of Nigeria in 2023 and promoted by the Henry
-              Seriake Dickson Foundation (HSDF). Located in Toru-Orua, in
-              Sagbama Local Government Area of Bayelsa State, it is the first
-              private university in the State, established to pursue academic,
-              research and entrepreneurial excellence, character formation,
-              discipline, and commitment to service in line with the founder’s
-              vision, Hensard University will bridge the gaps between academic
-              certifications, skills development, and the practical industrial
-              application of knowledge for the development of society. The goal
-              of combining academic excellence and participation in business
-              management is for every Hensard student to graduate with the
-              academic, personal training, discipline, and practical skills
-              needed to meet the Hensard expectation that its graduates will not
-              only be ready for the labor market but will also create jobs and
-              be employers of labor.
-            </p>
-            <h2 className="xui-font-sz-100 xui-lg-font-sz-120 xui-text-uppercase xui-mt-3">
-              OUR VISION
-            </h2>
-            <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
-              Aspire to be a top-tier academic, research, and entrepreneurial
-              university, producing ethical and responsible students and
-              professionals who are committed to sustainable development
+              On behalf of my family and the Henry Seriake Dickson Foundation, I
+              extend warm welcomes to you. Your interest in the establishment of
+              Hensard University by the Foundation is greatly
+              appreciated.Hensard University provides its students with a unique
+              combination of academics, practical skills, industrial exposure,
+              and mentorship. Hensard aims to equip her students with real-world
+              experiences and entrepreneurial skills. We are poised to
+              transforming graduates as entrepreneurs and wealth creators with
+              industry-oriented skills. Dual certifications, international
+              collaborations and partnerships will ensure standards, and
+              exposure of our students to renowned mentors and leaders in
+              various fields, globally.
             </p>
             <div className="xui-mt-2">
-              <ButtonStyleI path={"/"} text={"Apply Now"} />
+              <ButtonStyleI path={"/"} text={"Read More"} />
             </div>
           </div>
         </div>

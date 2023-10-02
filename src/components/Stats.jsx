@@ -16,28 +16,37 @@ const Stats = () => {
             style={{ backgroundColor: "var(--red)" }}
           >
             <h1 className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase">
-              Lorem ipsum lorem ipsum
+              WELCOME TO HENSARD UNIVERSITY.
             </h1>
             <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
-              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
-              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
-              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-              tempus. Donec vitae sapien ut libero venenatis faucibus.
+              Hensard University is a unique private university licensed by the
+              Federal Government of Nigeria in 2023 and promoted by the Henry
+              Seriake Dickson Foundation (HSDF). Located in Toru-Orua, in
+              Sagbama Local Government Area of Bayelsa State, it is the first
+              private university in the State, established to pursue academic,
+              research and entrepreneurial excellence, character formation,
+              discipline, and commitment to service in line with the founder’s
+              vision, Hensard University will bridge the gaps between academic
+              certifications, skills development, and the practical industrial
+              application of knowledge for the development of society. The goal
+              of combining academic excellence and participation in business
+              management is for every Hensard student to graduate with the
+              academic, personal training, discipline, and practical skills
+              needed to meet the Hensard expectation that its graduates will not
+              only be ready for the labor market but will also create jobs and
+              be employers of labor.
             </p>
+            <br />
+            <br />
+            <h1 className="xui-font-sz-120 xui-lg-font-sz-150 xui-text-uppercase">
+              OUR VISION
+            </h1>
+            <p className="xui-mt-1 xui-line-height-2 xui-opacity-8">
+              Aspire to be a top-tier academic, research, and entrepreneurial
+              university, producing ethical and responsible students and
+              professionals who are committed to sustainable development
+            </p>
+
             <div className="xui-mt-2">
               <ButtonStyleI path={"/"} text={"Apply Now"} color="var(--red)" />
             </div>

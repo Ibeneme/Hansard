@@ -1,3 +1,4 @@
+import Indexa from "../Ikenna/pages";
 import Blog from "../components/Blog";
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar";
@@ -12,7 +13,8 @@ const Home = () => {
         <>
         <Navbar />
         <HomeHeader />
-        <Programs />
+        <Indexa />
+        {/* <Programs /> */}
         <Stats />
         <Welcome />
         <Blog />

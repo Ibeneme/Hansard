@@ -12,7 +12,6 @@ const Careers = () => {
         backgroundColor: "#04122f",
         minHeight: "100vh",
       }}
-
     >
       <Navbar />
       <div>
@@ -20,11 +19,31 @@ const Careers = () => {
           <h1 className="ikenna-funding-first-h1">Careers</h1>
         </div>
         <div className="careers-div">
-          <CareersComponent />
-          <CareersComponent />
-          <CareersComponent />
-          <CareersComponent />
-          <CareersComponent />
+          <CareersComponent
+            title="Developer"
+            buttonText="Apply Now"
+            onClick={handleApplyNowClick}
+          />
+          <CareersComponent
+            title="Developer"
+            buttonText="Apply Now"
+            onClick={handleApplyNowClick}
+          />
+          <CareersComponent
+            title="Developer"
+            buttonText="Apply Now"
+            onClick={handleApplyNowClick}
+          />
+          <CareersComponent
+            title="Developer"
+            buttonText="Apply Now"
+            onClick={handleApplyNowClick}
+          />
+          <CareersComponent
+            title="Developer"
+            buttonText="Apply Now"
+            onClick={handleApplyNowClick}
+          />
         </div>
         <Footer />
       </div>
