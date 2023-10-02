@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import "./assets/styling/beautify.css";
 import ResearchCenter from "./Ikenna/pages/research/researchCenter";
-import Funding from "./Ikenna/pages/research/funding.JSX";
+import Funding from "./Ikenna/pages/research/funding";
 import NotFound from "./Ikenna/pages/research/404";
 import Careers from "./Ikenna/pages/research/Careers";
 import LocationComponent from "./Ikenna/pages/maps/Location";
