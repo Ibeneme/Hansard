@@ -1,0 +1,26 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.ikenna-academic-table{
+  width: 100%;
+  margin: 128px auto;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.academic-table th, .academic-table td {
+  padding: 8px;
+  border: 1px solid gray; 
+}
+
+.academic-table th {
+  background-color: #f1f1f1;
+}

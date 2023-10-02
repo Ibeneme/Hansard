@@ -1,0 +1,140 @@
+.staff-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+}
+
+.ikenna-item-container {
+  background-color: #d92828;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 12px;
+  height: fit-content;
+  margin-bottom: 8px;
+}
+.staff-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  border-radius: 12px;
+  padding: 12px;
+}
+.ikenna-staff-h2 {
+  text-align: left;
+  margin-top: 24px;
+  padding-left: 12px;
+}
+.staff-image {
+  height: 200px;
+  border-radius: 12px;
+  width: 100%;
+}
+.Ikenna-staff {
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 0 44px;
+  width: 100%;
+}
+.staff-faculty {
+  color: black;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.ikenna-acc-p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: gray;
+  margin-bottom: 24px;
+}
+
+.ikenna-acc-h {
+  font-size: 18px;
+  line-height: 1.7;
+  color: black;
+  margin-top: 24px;
+}
+.flip-ikenna-acc {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+.flip-ikenna-acc-opp {
+  display: flex;
+  gap: 24px;
+  flex-direction: row-reverse;
+}
+
+.acc-ikenna-img {
+  width: 49%;
+  margin-bottom: 24px;
+}
+
+/* Default styles for the table */
+.ikenna-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .ikenna-table, .ikenna-th, .ikenna-td {
+    border: 1px solid #ccc;
+  }
+  
+  .ikenna-th, .ikenna-td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .ikenna-th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .ikenna-table {
+      font-size: 14px;
+    }
+  
+    .ikenna-th, .ikenna-td {
+      padding: 8px;
+    }
+  }
+
+  
+@media (max-width: 768px) {
+  .staff-card {
+    width: calc(50% - 20px);
+  }
+  .flip-ikenna-acc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+  }
+  .flip-ikenna-acc-opp {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .acc-ikenna-img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .staff-card {
+    width: 100%;
+  }
+  .ikenna-staff-h2 {
+    text-align: center;
+    margin-top: 24px;
+  }
+}

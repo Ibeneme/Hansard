@@ -1,0 +1,204 @@
+.ikenna-maps-address {
+  padding: 120px;
+  background-color: #f4f4f4;
+}
+
+.ikenna-maps-address-first-div {
+  padding: 48px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: fit-content;
+}
+
+.ikenna-maps-address-first-div-top {
+  padding: 48px;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: fit-content;
+}
+.ikenna-maps-address-h3 {
+  font-size: 18px;
+  line-height: 1.6px;
+  margin-bottom: 20px;
+}
+
+.ikenna-maps {
+  margin-top: 64px;
+}
+
+.ikenna-maps-location-first-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.ikenna-maps-location-second-div {
+  width: 100%;
+}
+
+.item-title {
+  background-color: #1760ec;
+  color: white;
+  cursor: pointer;
+  height: fit-content;
+  padding: 12px 16px;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.expanded-title {
+  background-color: #04122f;
+  height: fit-content;
+  font-size: 16px;
+}
+
+.unexpanded-title {
+  background-color: #1760ec;
+  font-size: 16px;
+}
+
+.ikenna-expanded {
+  padding: 16px;
+  border: 1px solid #d9d9d975;
+  margin-top: -5px;
+  font-size: 14px;
+}
+.ikenna-maps-address-p {
+  font-size: 12px;
+  color: gray;
+}
+
+.ikenna-student-affairs-scrolling-div {
+  width: 100%;
+  background-color: #f4f4f4;
+  min-height: fit-content;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Ikenna-news-date {
+  background-color: #1760ec24;
+  color: #1760ec;
+  padding: 12px 24px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  border-left: 5px solid #1760ec;
+}
+
+.Ikenna-news-h2 {
+  margin-top: 24px;
+}
+
+.ikenna-news-img {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  height: 700px;
+}
+
+.Ikenna-news-p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  line-height: 1.8;
+}
+.Ikenna-news-p-top {
+  font-size: 12px;
+  color: gray;
+  line-height: 1.8;
+}
+
+.Ikenna-news-p-span {
+  font-size: 24px;
+  color: black;
+  font-weight: bolder;
+  color: #1760ec;
+}
+.hensard-ikenna-news-h3 {
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+.ikenna-maps-address-first-div-new {
+  padding: 24px;
+  width: 100%;
+  margin-top: 24px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.ikenna-news-divider {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+@media (max-width: 900px) {
+  .ikenna-news-divider {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .ikenna-maps-address {
+    padding: 48px;
+    background-color: #f4f4f4;
+  }
+  .ikenna-news-img {
+    height: 500px;
+  }
+
+  .ikenna-maps-address-first-div {
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+  .ikenna-maps-address-first-div-top {
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    width: 100%;
+  }
+
+  .ikenna-maps-location-first-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ikenna-maps-address {
+    padding: 16px;
+    background-color: #f4f4f4;
+  }
+  .ikenna-news-img {
+    height: 350px;
+  }
+
+  .ikenna-maps-address-first-div {
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  .ikenna-maps-address-first-div-top {
+    padding: 16px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding-bottom: 24px;
+    margin-bottom: -24px;
+  }
+  .ikenna-maps-address-h3 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .ikenna-maps-address-p {
+    font-size: 14px;
+    color: gray;
+  }
+}
